@@ -10,6 +10,10 @@ GitHub data/metrics for your READMEs.
 
 ![website screenshot](metrics.plugin.screenshot.svg)
 
+## Lighthouse Results
+
+![Metrics](https://metrics.lecoq.io/semanticdata?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&pagespeed=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&pagespeed=false&pagespeed.url=https%3A%2F%2Fmiguelpimentel.do%2F&pagespeed.detailed=false&pagespeed.screenshot=false&pagespeed.pwa=false&config.timezone=America%2FChicago)
+
 ## 💜 Acknowledgements
 
 Made with [lowlighter/metrics.](https://github.com/lowlighter/metrics).
