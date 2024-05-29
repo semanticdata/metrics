@@ -1,6 +1,5 @@
 # Source: https://github.com/lowlighter/metrics#-documentation
-name: Update Spotify section
-
+name: Update Recent activity
 on:
   schedule: [{ cron: "0 6 * * *" }]
   workflow_dispatch:
