@@ -1,0 +1,27 @@
+# Source: https://github.com/lowlighter/metrics#-documentation
+name: Update Notes
+
+on:
+  schedule: [{ cron: "0 3 * * *" }]
+  workflow_dispatch:
+  # push: {branches: ["master", "main"]}
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.rss.notes.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Options
+          user: semanticdata
+          template: classic
+          base: ""
+          plugin_rss: yes
+          plugin_rss_source: https://database.bearblog.dev/feed/?q=notes
+          plugin_rss_limit: 4
