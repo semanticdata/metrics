@@ -1,5 +1,5 @@
 # Source: https://github.com/lowlighter/metrics#-documentation
-name: Metrics
+name: PageSpeed Results
 
 on:
   schedule: [{cron: "0 5 * * *"}]
