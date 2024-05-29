@@ -1,7 +1,7 @@
 # Source: https://github.com/lowlighter/metrics#-documentation
-name: Update Metrics
+name: Update Full Metrics
 on:
-  schedule: [{cron: "0 3 * * *"}]
+  schedule: [{ cron: "0 3 * * *" }]
   workflow_dispatch:
   # push: {branches: ["master", "main"]}
 jobs:
@@ -12,14 +12,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
-          # The following scopes are required:
-          #  - public_access (default scope)
-          # The following additional scopes may be required:
-          #  - read:org      (for organization related metrics)
-          #  - read:user     (for user related data)
-          #  - read:packages (for some packages related data)
-          #  - repo          (optional, if you want to include private repositories)
+          filename: metrics.plugin.full-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options

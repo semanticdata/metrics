@@ -1,19 +1,21 @@
 # Source: https://github.com/lowlighter/metrics#-documentation
-name: PageSpeed Results
+name: Update PageSpeed results
 
 on:
-  schedule: [{cron: "0 5 * * *"}]
+  schedule: [{ cron: "0 5 * * *" }]
   workflow_dispatch:
   # push: {branches: ["master", "main"]}
+
+permissions:
+  contents: write
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: metrics.plugin.pagespeed.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options

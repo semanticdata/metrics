@@ -1,15 +1,16 @@
 name: Website Screenshot
 
 on:
-  schedule: [{cron: "0 4 * * *"}]
+  schedule: [{ cron: "0 2 * * *" }]
   workflow_dispatch:
   # push: {branches: ["master", "main"]}
+
+permissions:
+  contents: write
 
 jobs:
   github-metrics-screenshot:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -17,5 +18,5 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_screenshot: yes
-          plugin_screenshot_title: Screenshot Title (Reference)
+          plugin_screenshot_title: Website Screenshot
           plugin_screenshot_url: https://miguelpimentel.do

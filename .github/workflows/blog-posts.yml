@@ -1,19 +1,22 @@
-# Visit https://github.com/lowlighter/metrics#-documentation for full reference
+# Source: https://github.com/lowlighter/metrics#-documentation
 name: Update Blog entries
+
 on:
-  schedule: [{cron: "0 7 * * *"}]
+  schedule: [{ cron: "0 4 * * *" }]
   workflow_dispatch:
   # push: {branches: ["master", "main"]}
+
+permissions:
+  contents: write
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.plugin.rss.svg
+          token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
           user: semanticdata
