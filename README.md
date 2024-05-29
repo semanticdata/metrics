@@ -18,6 +18,10 @@ GitHub data/metrics for your READMEs.
 
 ![Metrics](metrics.plugin.rss.svg)
 
+## Dev.to entries
+
+![Dev.to entries](metrics.plugin.dev.to.svg)
+
 ## 💜 Acknowledgements
 
 Made with [lowlighter/metrics.](https://github.com/lowlighter/metrics).
