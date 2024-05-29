@@ -26,6 +26,14 @@ GitHub data/metrics for your READMEs.
 
 ![recent activity](metrics.plugin.activity.svg)
 
+## Notes
+
+![notes](metrics.plugin.rss.notes.svg)
+
+## Tutorials
+
+![notes](metrics.plugin.rss.tutorials.svg)
+
 ## 💜 Acknowledgements
 
 Made with [lowlighter/metrics](https://github.com/lowlighter/metrics).
