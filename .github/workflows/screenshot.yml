@@ -15,7 +15,7 @@ jobs:
         with:
           filename: metrics.plugin.screenshot.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          # base: ""
+          base: ""
           plugin_screenshot: yes
           plugin_screenshot_title: Screenshot Title (Reference)
           plugin_screenshot_url: https://miguelpimentel.do
