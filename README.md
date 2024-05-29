@@ -22,6 +22,10 @@ GitHub data/metrics for your READMEs.
 
 ![Dev.to entries](metrics.plugin.dev.to.svg)
 
+## Recent Activity
+
+![recent activity](metrics.plugin.activity.svg)
+
 ## 💜 Acknowledgements
 
-Made with [lowlighter/metrics.](https://github.com/lowlighter/metrics).
+Made with [lowlighter/metrics](https://github.com/lowlighter/metrics).
