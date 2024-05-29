@@ -1,0 +1,28 @@
+# Source: https://github.com/lowlighter/metrics#-documentation
+name: Update Dev.to entries
+
+on:
+  schedule: [{ cron: "0 8 * * *" }]
+  workflow_dispatch:
+  # push: {branches: ["master", "main"]}
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.dev.to.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Options
+          base: ""
+          plugin_posts: yes
+          plugin_posts_source: dev.to
+          plugin_posts_limit: 2
+          plugin_posts_descriptions: yes
+          plugin_posts_covers: yes
+          plugin_posts_user: semanitcdata
