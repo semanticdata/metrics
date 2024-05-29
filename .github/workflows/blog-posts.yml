@@ -1,0 +1,24 @@
+# Visit https://github.com/lowlighter/metrics#-documentation for full reference
+name: Update Blog entries
+on:
+  schedule: [{cron: "0 7 * * *"}]
+  workflow_dispatch:
+  # push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # token: NOT_NEEDED
+
+          # Options
+          user: semanticdata
+          template: classic
+          base: ""
+          config_timezone: America/Chicago
+          plugin_rss: yes
+          plugin_rss_limit: 4
+          plugin_rss_source: https://database.bearblog.dev/feed/?q=posts
