@@ -14,7 +14,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.screenshot.svg
-          # token: NOT_NEEDED
+          token: ${{ secrets.METRICS_TOKEN }}
           # base: ""
           plugin_screenshot: yes
           plugin_screenshot_title: Screenshot Title (Reference)
