@@ -1,0 +1,26 @@
+# Source: https://github.com/lowlighter/metrics#-documentation
+name: Update Spotify section
+
+on:
+  schedule: [{ cron: "0 6 * * *" }]
+  workflow_dispatch:
+  # push: {branches: ["master", "main"]}
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Recent activity
+      uses: lowlighter/metrics@latest
+      with:
+        filename: metrics.plugin.activity.svg
+        token: ${{ secrets.METRICS_TOKEN }}
+        base: ""
+        plugin_activity: yes
+        plugin_activity_limit: 5
+        plugin_activity_days: 0
+        plugin_activity_filter: issue, pr, release, fork, review, ref/create
+
