@@ -11,11 +11,11 @@ jobs:
     permissions:
       contents: write
     steps:
-      uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
-        filename: metrics.plugin.screenshot.svg
-        # token: NOT_NEEDED
-        # base: ""
-        plugin_screenshot: yes
-        plugin_screenshot_title: Screenshot Title (Reference)
-        plugin_screenshot_url: https://miguelpimentel.do
+          filename: metrics.plugin.screenshot.svg
+          # token: NOT_NEEDED
+          # base: ""
+          plugin_screenshot: yes
+          plugin_screenshot_title: Screenshot Title (Reference)
+          plugin_screenshot_url: https://miguelpimentel.do
