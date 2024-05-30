@@ -2,9 +2,9 @@
 name: Update Dev.to entries
 
 on:
-  schedule: [{ cron: "0 8 * * *" }]
+  # runs every day at 00:30
+  schedule: [{ cron: "30 0 * * *" }]
   workflow_dispatch:
-  # push: {branches: ["master", "main"]}
 
 permissions:
   contents: write
@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: svg/metrics.plugin.dev.to.svg
+          filename: svg/metrics-rss-dev.to.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options

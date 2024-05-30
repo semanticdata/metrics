@@ -1,31 +1,33 @@
 # 📊 Metrics
 
-GitHub data/metrics for your READMEs. Uses [lowlighter/metrics](https://github.com/lowlighter/metrics).
+Data and other metrics using [lowlighter/metrics](https://github.com/lowlighter/metrics).
+
+[GitHub Actions](.github/workflows) run once daily to create/update the [SVG](svg) files.
 
 ## Website Screenshot
 
-![website screenshot](metrics.plugin.screenshot.svg)
+![website screenshot](svg/metrics.plugin.screenshot.svg)
 
 ## Lighthouse Results
 
-![PageSpeed results](metrics.plugin.pagespeed.svg)
-
-## Blog posts
-
-![Metrics](metrics.plugin.rss.svg)
+![pagespeed results](svg/metrics.plugin.pagespeed.svg)
 
 ## Dev.to entries
 
-![Dev.to entries](metrics.plugin.dev.to.svg)
+![dev.to entries](svg/metrics.plugin.dev.to.svg)
 
-## Recent Activity
+## Blog posts
 
-![recent activity](metrics.plugin.activity.svg)
+![blog posts](svg/metrics.plugin.rss.svg)
 
-## Notes
+## RSS Notes
 
-![notes](metrics.plugin.rss.notes.svg)
+![notes](svg/metrics.plugin.rss.notes.svg)
 
-## Tutorials
+## RSS Tutorials
 
-![notes](metrics.plugin.rss.tutorials.svg)
+![tutorials](svg/metrics.plugin.rss.tutorials.svg)
+
+## GitHub Recent Activity
+
+![recent activity](svg/metrics.plugin.activity.svg)

@@ -2,9 +2,9 @@
 name: Update PageSpeed results
 
 on:
-  schedule: [{ cron: "0 5 * * *" }]
+  # runs every day at 23:00
+  schedule: [{ cron: "0 23 * * *" }]
   workflow_dispatch:
-  # push: {branches: ["master", "main"]}
 
 permissions:
   contents: write
@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.pagespeed.svg
+          filename: svg/metrics-web-pagespeed.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options

@@ -2,9 +2,9 @@
 name: Update Tutorials
 
 on:
-  schedule: [{ cron: "0 4 * * *" }]
+  # runs every day at 23:30
+  schedule: [{ cron: "30 23 * * *" }]
   workflow_dispatch:
-  # push: {branches: ["master", "main"]}
 
 permissions:
   contents: write
@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.rss.tutorials.svg
+          filename: svg/metrics-rss-tutorials.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
