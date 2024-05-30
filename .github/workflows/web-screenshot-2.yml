@@ -15,11 +15,11 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: svg/metrics-web-screenshot.svg
+          filename: svg/metrics-web-screenshot-2.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
           base: ""
           plugin_screenshot: yes
           plugin_screenshot_title: Screenshot
-          plugin_screenshot_url: https://ForgetulNotes.com
+          plugin_screenshot_url: https://ForgetfulNotes.com
