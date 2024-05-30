@@ -1,5 +1,5 @@
 # Source: https://github.com/lowlighter/metrics#-documentation
-name: Update Website PageSpeed
+name: Update Website PageSpeed results
 
 on:
   # runs every day at 23:00

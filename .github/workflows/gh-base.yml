@@ -2,8 +2,8 @@
 name: Update GitHub Base Metrics
 
 on:
-  # runs every day at 03:00
-  schedule: [{ cron: "0 3 * * *" }]
+  # runs every day at 05:30
+  schedule: [{ cron: "30 5 * * *" }]
   workflow_dispatch:
 
 permissions:
