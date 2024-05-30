@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: svg/metrics-web-screenshot.svg
+          filename: svg/metrics-web-screenshot-2.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
