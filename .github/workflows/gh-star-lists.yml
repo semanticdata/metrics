@@ -21,4 +21,5 @@ jobs:
           # Options
           base: ""
           plugin_starlists: yes
-          plugin_starlists_limit_repositories: 8
+          plugin_starlists_limit_repositories: 0
+          # plugin_starlists_limit_languages: 8
