@@ -16,6 +16,10 @@ Data and other metrics using [lowlighter/metrics](https://github.com/lowlighter/
 
 ![tutorials](svg/metrics-rss-tutorials.svg)
 
+## GitHub Base
+
+![github base](svg/metrics-gh-base.svg)
+
 ## GitHub Recent Activity
 
 ![recent activity](svg/metrics-gh-recent-activity.svg)
