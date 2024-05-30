@@ -36,6 +36,10 @@ Data and other metrics using [lowlighter/metrics](https://github.com/lowlighter/
 
 ![languages](svg/metrics-gh-languages.svg)
 
+## GitHub Starlists
+
+![starlists](svg/metrics-gh-starlists.svg)
+
 ## Dev.to entries
 
 ![dev.to entries](svg/metrics-rss-dev.to.svg)

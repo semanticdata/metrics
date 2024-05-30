@@ -1,0 +1,24 @@
+# Source: https://github.com/lowlighter/metrics#-documentation
+name: Update GitHub Starlists
+
+on:
+  # runs every day at 04:30
+  schedule: [{ cron: "30 4 * * *" }]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: svg/metrics-gh-starlists.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Options
+          base: ""
+          plugin_starlists: yes
+          plugin_starlists_limit_repositories: 8
