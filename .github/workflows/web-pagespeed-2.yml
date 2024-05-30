@@ -24,4 +24,4 @@ jobs:
           base: ""
           config_timezone: America/Chicago
           plugin_pagespeed: yes
-          plugin_pagespeed_url: https://ForgetulNotes.com/
+          plugin_pagespeed_url: https://forgetulnotes.com/
