@@ -1,5 +1,5 @@
 # Source: https://github.com/lowlighter/metrics#-documentation
-name: Website Screenshot
+name: Update Website Screenshot
 
 on:
   # runs every day at 22:30

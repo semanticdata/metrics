@@ -1,5 +1,5 @@
 # Source: https://github.com/lowlighter/metrics#-documentation
-name: Update Github Full Metrics
+name: Update GitHub Full Metrics
 
 on:
   # runs every day at 02:30

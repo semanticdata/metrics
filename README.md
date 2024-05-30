@@ -28,6 +28,10 @@ Data and other metrics using [lowlighter/metrics](https://github.com/lowlighter/
 
 ![notable contributions](svg/metrics-gh-notable-contributions.svg)
 
+## GitHub Languages
+
+![languages](svg/metrics-gh-languages.svg)
+
 ## Dev.to entries
 
 ![dev.to entries](svg/metrics-rss-dev.to.svg)

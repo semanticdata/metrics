@@ -1,0 +1,25 @@
+# Source: https://github.com/lowlighter/metrics#-documentation
+name: Update GitHub Languages
+
+on:
+  # runs every day at 03:30
+  schedule: [{ cron: "30 3 * * *" }]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: svg/metrics-gh-languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Options
+          plugin_languages: yes
+          commits_authoring: firstname lastname, username, username@users.noreply.github.com
+          # plugin_languages_indepth: yes
+          # base: header, activity, community, repositories, metadata

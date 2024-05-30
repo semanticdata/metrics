@@ -1,5 +1,5 @@
 # Source: https://github.com/lowlighter/metrics#-documentation
-name: Update GitHub notable contributions
+name: Update GitHub Notable contributions
 
 on:
   # runs every day at 02:00
