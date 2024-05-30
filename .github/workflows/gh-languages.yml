@@ -21,5 +21,4 @@ jobs:
           # Options
           plugin_languages: yes
           commits_authoring: firstname lastname, username, username@users.noreply.github.com
-          # plugin_languages_indepth: yes
-          # base: header, activity, community, repositories, metadata
+          base: ""
