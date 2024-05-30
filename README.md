@@ -26,7 +26,7 @@ Data and other metrics using [lowlighter/metrics](https://github.com/lowlighter/
 
 ## GitHub Notable Contributions
 
-![notable contributions](svg/metrics-notable-contributions.svg)
+![notable contributions](svg/metrics-gh-notable-contributions.svg)
 
 ## Dev.to entries
 
