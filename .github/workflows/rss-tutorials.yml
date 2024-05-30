@@ -1,5 +1,5 @@
 # Source: https://github.com/lowlighter/metrics#-documentation
-name: Update Tutorials
+name: Update (RSS) Tutorials
 
 on:
   # runs every day at 23:30

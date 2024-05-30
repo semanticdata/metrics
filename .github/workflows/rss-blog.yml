@@ -1,5 +1,5 @@
 # Source: https://github.com/lowlighter/metrics#-documentation
-name: Update Blog entries
+name: Update (RSS) Blog entries
 
 on:
   # runs every day at 01:00

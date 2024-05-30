@@ -1,5 +1,5 @@
 # Source: https://github.com/lowlighter/metrics#-documentation
-name: Update Dev.to entries
+name: Update (RSS) Dev.to entries
 
 on:
   # runs every day at 00:30
