@@ -1,0 +1,25 @@
+# Source: https://github.com/lowlighter/metrics#-documentation
+name: Update ForgetulNotes.com Screenshot
+
+on:
+  # runs every day at 22:45
+  schedule: [{ cron: "45 22 * * *" }]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics-screenshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: svg/metrics-web-screenshot.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Options
+          base: ""
+          plugin_screenshot: yes
+          plugin_screenshot_title: Screenshot
+          plugin_screenshot_url: https://ForgetulNotes.com
