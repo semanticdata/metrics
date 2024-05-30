@@ -21,5 +21,5 @@ jobs:
           # Options
           base: ""
           plugin_screenshot: yes
-          plugin_screenshot_title: Screenshot
+          plugin_screenshot_title: Screenshot - MiguelPimentel.do
           plugin_screenshot_url: https://miguelpimentel.do
