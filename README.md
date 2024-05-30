@@ -4,15 +4,15 @@ Data and other metrics using [lowlighter/metrics](https://github.com/lowlighter/
 
 [GitHub Actions](.github/workflows) run once daily to create/update the [SVG](svg) files.
 
-## ✍ Blog posts
+## ✍ Blog posts (RSS)
 
 ![blog posts](svg/metrics-rss-blog.svg)
 
-## 📝 RSS Notes
+## 📝 Notes (RSS)
 
 ![notes](svg/metrics-rss-notes.svg)
 
-## 📑 RSS Tutorials
+## 📑 Tutorials (RSS)
 
 ![tutorials](svg/metrics-rss-tutorials.svg)
 
@@ -20,31 +20,19 @@ Data and other metrics using [lowlighter/metrics](https://github.com/lowlighter/
 
 ![github base](svg/metrics-gh-base.svg)
 
-### Recent Activity
-
 ![recent activity](svg/metrics-gh-recent-activity.svg)
-
-### Notable Contributions
 
 ![notable contributions](svg/metrics-gh-notable-contributions.svg)
 
-### Starred Topics
-
 ![starred topics](svg/metrics-gh-starred-topics.svg)
-
-### Languages
 
 ![languages](svg/metrics-gh-languages.svg)
 
-### Starlists
+![mild facts](svg/metrics-gh-mild-facts.svg)
 
 ![starlists](svg/metrics-gh-starlists.svg)
 
-### Mild Facts
-
-![mild facts](svg/metrics-gh-mild-facts.svg)
-
-## Dev.to entries
+## Dev.to
 
 ![dev.to entries](svg/metrics-rss-dev.to.svg)
 
