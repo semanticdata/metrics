@@ -2,7 +2,7 @@
 
 Data and other metrics using [lowlighter/metrics](https://github.com/lowlighter/metrics).
 
-[GitHub Actions](.github/workflows) run once daily to create/update the [SVG](svg) files.
+We use [GitHub Actions](.github/workflows) to run workflows daily to update the images.
 
 ## ✍ Blog posts (RSS)
 
@@ -18,9 +18,11 @@ Data and other metrics using [lowlighter/metrics](https://github.com/lowlighter/
 
 ## GitHub
 
-![github base](svg/metrics-gh-base.svg)
+[![github base](svg/metrics-gh-base.svg)](https://github.com/semanticdata)
 
 ![recent activity](svg/metrics-gh-recent-activity.svg)
+
+![mild facts](svg/metrics-gh-mild-facts.svg)
 
 ![notable contributions](svg/metrics-gh-notable-contributions.svg)
 
@@ -28,9 +30,7 @@ Data and other metrics using [lowlighter/metrics](https://github.com/lowlighter/
 
 ![languages](svg/metrics-gh-languages.svg)
 
-![mild facts](svg/metrics-gh-mild-facts.svg)
-
-![starlists](svg/metrics-gh-starlists.svg)
+<!-- ![starlists](svg/metrics-gh-starlists.svg) -->
 
 ## Dev.to
 
