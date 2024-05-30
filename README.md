@@ -40,6 +40,10 @@ Data and other metrics using [lowlighter/metrics](https://github.com/lowlighter/
 
 ![starlists](svg/metrics-gh-starlists.svg)
 
+## GitHub Mild Facts
+
+![mild facts](svg/metrics-gh-mild-facts.svg)
+
 ## Dev.to entries
 
 ![dev.to entries](svg/metrics-rss-dev.to.svg)
