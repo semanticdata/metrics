@@ -34,7 +34,7 @@ Data and other metrics using [lowlighter/metrics](https://github.com/lowlighter/
 
 ## Dev.to
 
-![dev.to entries](svg/metrics-rss-dev.to.svg)
+[![dev.to entries](svg/metrics-rss-dev.to.svg)](https://dev.to/semanticdata)
 
 ## Websites
 
