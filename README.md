@@ -20,27 +20,27 @@ Data and other metrics using [lowlighter/metrics](https://github.com/lowlighter/
 
 ![github base](svg/metrics-gh-base.svg)
 
-### GitHub Recent Activity
+### Recent Activity
 
 ![recent activity](svg/metrics-gh-recent-activity.svg)
 
-### GitHub Notable Contributions
+### Notable Contributions
 
 ![notable contributions](svg/metrics-gh-notable-contributions.svg)
 
-### Github Starred Topics
+### Starred Topics
 
 ![starred topics](svg/metrics-gh-starred-topics.svg)
 
-### GitHub Languages
+### Languages
 
 ![languages](svg/metrics-gh-languages.svg)
 
-### GitHub Starlists
+### Starlists
 
 ![starlists](svg/metrics-gh-starlists.svg)
 
-### GitHub Mild Facts
+### Mild Facts
 
 ![mild facts](svg/metrics-gh-mild-facts.svg)
 
