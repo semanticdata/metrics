@@ -54,6 +54,8 @@ Data and other metrics using [lowlighter/metrics](https://github.com/lowlighter/
 
 ![pagespeed results](svg/metrics-web-pagespeed.svg)
 
+![pagespeed results](svg/metrics-web-pagespeed-2.svg)
+
 <!-- ## Full Metrics
 
 ![full metrics](svg/metrics-gh-full-metrics.svg) -->
