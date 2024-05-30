@@ -22,4 +22,4 @@ jobs:
           base: ""
           plugin_screenshot: yes
           plugin_screenshot_title: Screenshot
-          plugin_screenshot_url: https://ForgetulNotes.com
+          plugin_screenshot_url: https://ForgetfulNotes.com
