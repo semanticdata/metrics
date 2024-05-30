@@ -1,0 +1,24 @@
+# Source: https://github.com/lowlighter/metrics#-documentation
+name: Update GitHub Starred Topics
+
+on:
+  # runs every day at 04:00
+  schedule: [{ cron: "0 4 * * *" }]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: svg/metrics-gh-starred-topics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Options
+          base: ""
+          plugin_topics: yes
+          plugin_topics_mode: icons
