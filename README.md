@@ -6,15 +6,15 @@ Data and other metrics using [lowlighter/metrics](https://github.com/lowlighter/
 
 ## ✍ Blog posts (RSS)
 
-![blog posts](svg/metrics-rss-blog.svg)
+[![blog posts](svg/metrics-rss-blog.svg)](https://miguelpimentel.do/posts/)
 
 ## 📝 Notes (RSS)
 
-![notes](svg/metrics-rss-notes.svg)
+[![notes](svg/metrics-rss-notes.svg)](https://miguelpimentel.do/notes/)
 
 ## 📑 Tutorials (RSS)
 
-![tutorials](svg/metrics-rss-tutorials.svg)
+[![tutorials](svg/metrics-rss-tutorials.svg)](https://miguelpimentel.do/tutorials/)
 
 ## GitHub
 
@@ -24,7 +24,7 @@ Data and other metrics using [lowlighter/metrics](https://github.com/lowlighter/
 
 ![notable contributions](svg/metrics-gh-notable-contributions.svg)
 
-![starred topics](svg/metrics-gh-starred-topics.svg)
+[![starred topics](svg/metrics-gh-starred-topics.svg)](https://github.com/stars/semanticdata/topics)
 
 ![languages](svg/metrics-gh-languages.svg)
 
@@ -38,11 +38,11 @@ Data and other metrics using [lowlighter/metrics](https://github.com/lowlighter/
 
 ## Websites
 
-![website screenshot](svg/metrics-web-screenshot.svg)
+[![website screenshot](svg/metrics-web-screenshot.svg)](https://miguelpimentel.do)
 
 ![pagespeed results](svg/metrics-web-pagespeed.svg)
 
-![website screenshot](svg/metrics-web-screenshot-2.svg)
+[![website screenshot](svg/metrics-web-screenshot-2.svg)](https://forgetfulnotes.com)
 
 ![pagespeed results](svg/metrics-web-pagespeed-2.svg)
 
