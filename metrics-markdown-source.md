@@ -6,9 +6,9 @@ We use [GitHub Actions](.github/workflows) to run workflows daily to update the 
 
 ## ✍ Blog posts (RSS)
 
-<!--[![blog posts](svg/metrics-rss-blog.svg)](https://miguelpimentel.do/posts/)-->
+[![blog posts](svg/metrics-rss-blog.svg)](https://miguelpimentel.do/posts/)
 
-<%- await include(`partials/rss.ejs`) %>
+<!--<%- await include(`partials/rss.ejs`) %>-->
 
 ## 📝 Notes (RSS)
 
@@ -22,21 +22,21 @@ We use [GitHub Actions](.github/workflows) to run workflows daily to update the 
 
 [![github base](svg/metrics-gh-base.svg)](https://github.com/semanticdata)
 
+![mild facts](svg/metrics-gh-mild-facts.svg)
+
 <!--![recent activity](svg/metrics-gh-recent-activity.svg)-->
 
 <%- await include(`partials/activity.ejs`) %>
 
-![mild facts](svg/metrics-gh-mild-facts.svg)
-
 ![notable contributions](svg/metrics-gh-notable-contributions.svg)
 
-<!--[![starred topics](svg/metrics-gh-starred-topics.svg)](https://github.com/stars/semanticdata/topics)-->
+[![starred topics](svg/metrics-gh-starred-topics.svg)](https://github.com/stars/semanticdata/topics)
 
-<%- await include(`partials/topics.ejs`) %>
+<!--<%- await include(`partials/topics.ejs`) %>-->
 
 ![languages](svg/metrics-gh-languages.svg)
 
-<!-- ![starlists](svg/metrics-gh-starlists.svg) -->
+![starlists](svg/metrics-gh-starlists.svg)
 
 ## Spotify
 
@@ -62,8 +62,6 @@ We use [GitHub Actions](.github/workflows) to run workflows daily to update the 
 
 ![pagespeed results](svg/metrics-web-pagespeed-2.svg)
 
-<!--
 ## Full Metrics
 
 ![full metrics](svg/metrics-gh-full-metrics.svg)
--->
