@@ -1,5 +1,5 @@
 # Source: https://github.com/lowlighter/metrics#-documentation
-name: Update Spotify - Recently Played
+name: Update Spotify - Recently Played (Artists)
 
 on:
   # runs every day at 06:25
@@ -13,10 +13,10 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-    - name: Spotify - Recently Played
+    - name: Spotify - Recently Played (Artists)
       uses: lowlighter/metrics@latest
       with:
-        filename: svg/metrics-spotify-recently-played.svg
+        filename: svg/metrics-spotify-recently-played-artists.svg
         token: ${{ secrets.METRICS_TOKEN }}
         base: ""
         plugin_music: yes
