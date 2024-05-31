@@ -16,10 +16,13 @@ jobs:
       - name: Recent activity
         uses: lowlighter/metrics@latest
         with:
-          filename: svg/metrics-gh-recent-actibity.svg
+          filename: svg/metrics-gh-recent-activity.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 0
-          plugin_activity_filter: issue, pr, release, fork, review, ref/create
+          plugin_activity_limit: 10 # default is 5
+          plugin_activity_days: 14  # default is 14
+          # opts: [push|issue|pr|ref/create|ref/delete|release|review|comment|wiki|fork|star|public|member]
+          plugin_activity_filter: all # issue, pr, release, fork, review, ref/create
+          plugin_activity_visibility: public
+          plugin_activity_timestamps: yes
