@@ -23,3 +23,7 @@ jobs:
           plugin_screenshot: yes
           plugin_screenshot_title: Screenshot - MiguelPimentel.do
           plugin_screenshot_url: https://miguelpimentel.do
+          plugin_screenshot_selector: body # default
+          plugin_screenshot_background: no # changed
+          plugin_screenshot_wait:        0 # default
+          plugin_screenshot_viewport: '{"width": 1280, "height": 1280}'
