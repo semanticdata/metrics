@@ -22,7 +22,7 @@ jobs:
           plugin_activity: yes
           plugin_activity_limit: 10 # default is 5
           plugin_activity_days: 14  # default is 14
-          plugin_activity_filter: issue, pr, release, review, fork, star
           plugin_activity_visibility: public
           plugin_activity_timestamps: yes
+          plugin_activity_filter: issue, pr, release, review, fork
           # opts: [push|issue|pr|ref/create|ref/delete|release|review|comment|wiki|fork|star|public|member]
