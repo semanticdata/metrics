@@ -36,7 +36,9 @@ We use [GitHub Actions](.github/workflows) to run workflows daily to update the 
 
 ![spotify recently played](svg/metrics-spotify-recently-played.svg)
 
-![spotify top 10](svg/metrics-spotify-top.svg)
+![spotify top 10 artists](svg/metrics-spotify-top-artists.svg)
+
+![spotify top 10 tracks](svg/metrics-spotify-top-tracks.svg)
 
 ## Dev.to
 
