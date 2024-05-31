@@ -22,7 +22,7 @@ jobs:
           user: semanticdata
           template: markdown
           config_output: markdown
-          markdown_cache: .cache
+          # markdown_cache: .cache
           markdown: >-
             metrics-markdown-source.md
           base: ""
