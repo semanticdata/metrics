@@ -29,4 +29,6 @@ jobs:
           
           plugin_rss: yes
           plugin_rss_source: https://database.bearblog.dev/feed/?q=posts
-          plugin_languages: yes
+          plugin_activity: yes
+          plugin_topics: yes
+          plugin_posts: yes
