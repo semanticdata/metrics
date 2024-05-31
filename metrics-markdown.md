@@ -5,12 +5,12 @@
   * *Published on 31 May 2024*
 * [Snowflake, Cloud Storage Giant, Suffers Breach](https://www.hudsonrock.com/blog/snowflake-massive-breach-access-through-infostealer-infection)
   * *Published on 31 May 2024*
-* [Show HN: CommitAsync – $100K+ dev jobs 100% remote only](https://www.commitasync.com/)
+* [How to Copy a File From a 30-year-old Laptop](https://www.unterminated.com/random-fun/how-to-copy-a-file-from-a-30-year-old-laptop)
   * *Published on 31 May 2024*
-* [Teacher Pay and per Student Spending](https://www.nea.org/resource-library/educator-pay-and-student-spending-how-does-your-state-rank/teacher)
+* [Engineering for Slow Internet](https://brr.fyi/posts/engineering-for-slow-internet)
   * *Published on 31 May 2024*
 
 
 ## 🎈 Embedding SVG metrics on-the-fly
 
-<img src="https://github.com/semanticdata/metrics/blob/main/.cache/example-isocalendar.svg">
+<img src="https://github.com/semanticdata/metrics/blob/main/.cache/example-starred-topics.svg">
