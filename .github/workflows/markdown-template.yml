@@ -29,35 +29,3 @@ jobs:
           
           plugin_rss: yes
           plugin_rss_source: https://database.bearblog.dev/feed/?q=posts
-          plugin_rss_limit: 4
-          
-          plugin_topics: yes
-          plugin_topics_mode: icons
-          plugin_topics_limit: 20
-
-          plugin_languages: yes
-          plugin_languages_ignored: markdown
-          plugin_languages_details: percentage
-
-          # plugin_habits: yes
-          # plugin_habits_facts: yes
-          config_timezone: America/Chicago
-          
-          # plugin_notable: yes
-
-          # plugin_activity: yes
-          plugin_activity_limit: 8 # default is 5
-          plugin_activity_days: 30  # default is 14
-          # plugin_activity_timestamps: yes
-          plugin_activity_visibility: public
-          plugin_activity_filter: issue, pr, release, review, fork, ref/create
-
-          # plugin_starlists: yes
-          plugin_starlists_limit: 8
-
-          # plugin_posts: yes
-          plugin_posts_source: dev.to
-          plugin_posts_limit: 3
-          # plugin_posts_descriptions: yes
-          # plugin_posts_covers: yes
-          plugin_posts_user: semanticdata
