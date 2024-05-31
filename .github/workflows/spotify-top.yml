@@ -1,5 +1,5 @@
 # Source: https://github.com/lowlighter/metrics#-documentation
-name: Update Spotify - Top Played
+name: Update Spotify - Top 10
 
 on:
   # runs every day at 06:35
@@ -13,7 +13,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-    - name: Spotify - Top Played
+    - name: Spotify - Top 10
       uses: lowlighter/metrics@latest
       with:
         filename: svg/metrics-spotify-top.svg
@@ -23,7 +23,7 @@ jobs:
         plugin_music_provider: spotify
         plugin_music_token: ${{ secrets.SPOTIFY_SECRETS }}
         plugin_music_mode: top         # opts: [playlist|top|recent]
-        plugin_music_limit: 8          # opts: [1-100]
+        plugin_music_limit: 10         # opts: [1-100]
         plugin_music_time_range: short # opts: [short|medium|long]
         plugin_music_top_type: artists # opts: [artists|tracks]
         plugin_music_played_at: yes    # opts: [yes|no]
