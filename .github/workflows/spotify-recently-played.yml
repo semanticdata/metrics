@@ -16,7 +16,7 @@ jobs:
     - name: Spotify - Recently Played
       uses: lowlighter/metrics@latest
       with:
-        filename: svg/metrics-music-spotify.svg
+        filename: svg/metrics-spotify-recently-played.svg
         token: ${{ secrets.METRICS_TOKEN }}
         base: ""
         plugin_music: yes
