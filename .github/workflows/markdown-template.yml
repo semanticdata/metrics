@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics-markdown.md
+          filename: metrics-markdown-2.md
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
@@ -23,8 +23,7 @@ jobs:
           template: markdown
           config_output: markdown
           # markdown_cache: .cache
-          markdown: >-
-            metrics-markdown-source.md
+          markdown: metrics-markdown-source.md
           base: ""
           plugin_rss: yes
           plugin_rss_source: https://news.ycombinator.com/rss
