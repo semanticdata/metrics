@@ -26,4 +26,4 @@ jobs:
           plugin_screenshot_selector: body # default
           plugin_screenshot_background: no # changed
           plugin_screenshot_wait:        0 # default
-          plugin_screenshot_viewport: '{"width": 1280, "height": 1280}'
+          plugin_screenshot_viewport: '{"width": 512, "height": 512}' # default: 1280x1280
