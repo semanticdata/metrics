@@ -26,6 +26,11 @@ jobs:
           markdown: >-
             https://raw.githubusercontent.com/semanticdata/metrics/main/metrics-markdown-source.md
           base: ""
+          
           plugin_rss: yes
           plugin_rss_source: https://news.ycombinator.com/rss
           plugin_rss_limit: 4
+          
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 20
