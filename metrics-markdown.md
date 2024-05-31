@@ -6,16 +6,16 @@ We use [GitHub Actions](.github/workflows) to run workflows daily to update the 
 
 ## ✍ Blog posts (RSS)
 
-<!--[![blog posts](svg/metrics-rss-blog.svg)](https://miguelpimentel.do/posts/)-->
+[![blog posts](svg/metrics-rss-blog.svg)](https://miguelpimentel.do/posts/)
 
-**[🗼 Rss feed from MiguelPimentel.do](https://miguelpimentel.do/)**
+<!--**[🗼 Rss feed from MiguelPimentel.do](https://miguelpimentel.do/)**
 * [Being a Firefighter Does Not Save You From Burnout](https://miguelpimentel.do/on-burning-out/)
   * *Published on 6 Jul 2023*
 * [Blogging to Tame the Monkey Mind](https://miguelpimentel.do/monkey-mind/)
   * *Published on 12 Apr 2023*
 * [Hello World!](https://miguelpimentel.do/hello-world/)
   * *Published on 18 Mar 2023*
-
+-->
 
 ## 📝 Notes (RSS)
 
@@ -28,6 +28,8 @@ We use [GitHub Actions](.github/workflows) to run workflows daily to update the 
 ## GitHub
 
 [![github base](svg/metrics-gh-base.svg)](https://github.com/semanticdata)
+
+![mild facts](svg/metrics-gh-mild-facts.svg)
 
 <!--![recent activity](svg/metrics-gh-recent-activity.svg)-->
 
@@ -42,13 +44,11 @@ We use [GitHub Actions](.github/workflows) to run workflows daily to update the 
 * ⏺️ Created new branch zola in [semanticdata/bearblog-code-vault](https://github.com/semanticdata/bearblog-code-vault)
 
 
-![mild facts](svg/metrics-gh-mild-facts.svg)
-
 ![notable contributions](svg/metrics-gh-notable-contributions.svg)
 
-<!--[![starred topics](svg/metrics-gh-starred-topics.svg)](https://github.com/stars/semanticdata/topics)-->
+[![starred topics](svg/metrics-gh-starred-topics.svg)](https://github.com/stars/semanticdata/topics)
 
-**[📌 ](https://github.com/semanticdata?tab=stars)**
+<!--**[📌 ](https://github.com/semanticdata?tab=stars)**
 
 [![](https://img.shields.io/static/v1?style=flat&label=&message=Python&color=222&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEQ0lEQVR4nM1Va0xTBxQuuMxsy5KZ7JWFsBfz16YQ2lJKCxSKheHmsxE3BYZEwQo00MJA4CIYcZMtwceUhwHGa+PR8hJhsNWZLQK64HgIFigUWhg00tCAoL33fkuhKEs3g8KPneTm3tx7zved8333nstg/G+CIOwJAouH5XodkWH3bM+eIlwkZW95plQJBMmVuz2TKnbx5EVe7hFnXl8bKpa6E6bXETuyWmb9M5sov5NX4XuiHl7JVTRXXjrFlOTsWcx9asms4B99lrkpMEv1l2bKhK+Vt0hWQjUpSFXQvC8rKH5KDdxkxX0OHM4LSyUMu9WDWwm8YnNeFZ1uMaYruxB84RrNT60DP6kS3Pgy2l1eCmb0ZYNjYOSm5bpVk3DD8l8WHC9/n5dYuMWHUJx1if0hny0rvciTlZRw48secuKK4Rb7PZyP5k5mnQvfjLEjH6gaQt58Iihh1VFIVPACTjf3izJ/WhBmXJn1SavTe6dU6/hJFWPc+NIJTlwxzZYW0m6xhXgv5KJm+HZUMYxyPNAem5roDAlcGsbWk+XRNnx8RtW+41wHtp1qooQZV+BzogHeKUrwkirhHl8OtrSQco3KI1nR+XAKzR3Q98aUYy4OmInGA92h64+Ufoz5+C3wJRSbA75qnRedaoIwvQECogbeKQraM6UG3MRqcOJ/BCu2FK7RRZSLtAzvHjjfuDAU/iumJYA2FOTwflNPi9BxaYoVBGJxxQbLWUBUbhNlNsPSuXdqDW0hYMmrZ5gxBb/w4/IVXGmO0i3qvJJ19GytW8Q3ZR3XIkswHkbSI8HAcBDowV0wdQZ42Mi0TOCdWO7rl9EIH6KWFqQqwZRVzqR9l3EBesnPmIy5icmYdkxGtUN/pA36kH5MfmGG9gAwJKYxuBO0OgCm20KerQ9WibwSCt4RpNXOeiVX055EPTykeUpMS34HlQoYEygYZcC9aMAQAYyHgdIE0fTgblDq7TTUIpB9Pka1iu1gI9EKkxmeSVUq35NN8Eiuh//xS0WYidHAIAf0xyiMHaYxcQgYPwjogoDRPcDwdtADfiSm/DDfzVX8G/g/pmBJLjHd44puMKXFRn/Zt9kwRI7AEAOMhYMaCabMA/vUZvXeO+a7O/vMvf795m6Bluzm6Rb+4HToVCxnK8GTV4dYLH6e4ZrzYm5uuAOpPXwP4+GA9iCgET+8f+fTmoUufvnDTuequVu8y615H74x0bzlpcZsp42MVQVgR1gNut4ofs08GjoN7efA4N5FIzEqBAwJNGbzQWp4BmXB1lcWywiG/apXxXJidpTTxgXNvi4Y9wNDn1C4GwB0u1K0LpME2jDfyW5jMBjP2X5YqyEhlnQc/y2AOdclaiV7fU3o4VNUtwdF/smZuX+TeVXXvNV5Ze4zB0Ew7HsbXN42tbH5phtuvJ46V0diraCPJoFlDdv+Gv/r/trILEauV+frFX8DurSNIMCXW5sAAAAASUVORK5CYII=)](https://github.com/topics/python)
 [![](https://img.shields.io/static/v1?style=flat&label=&message=JavaScript&color=222&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAACXBIWXMAAAsTAAALEwEAmpwYAAACmElEQVR4nO2T70sTcRzH/TsCraUUtt19724n2+62cpu66d3t+z2f+ECoBz5IyJSyQOpJPSvoQVCgIBSIQRRRlNEPgsAfpDPMlkmeu91ucyoJ29wPt1Vo3U7EJJlBPRM+D75fvl9en/fn/fl8ypLz8J9E2T4oue9R8n/P0WoQpmUt9GtC0iKjoLUwSsnaea+g+JwvFhBiAWELkVVQ0M/PDHNLM758BJUGxSWYU9HEy0aX08w30aFJPh9Bynv+/BmWYSgzTTR66Ht97pSMEiVAczAfQSNDXiMOLFYy6OcLUdTVzpQbMLudgkJN1VHciOGTrxtzKopLpUBjz72AJBiGjEwJC9MCw5AYAK8eNORUdOta7cM7dVs2lQCNDm2C1ClhMSA4HJQJB703nNkwWl9pLiyIe/BIL+2ZFxCAZSnZz3+PiZe67QcrMUAQrS2WwT73yqxvLYx0UX8ByqloMSD0nLNTZuJQJXakGm9tsXwZ47KKxvoDSM8Ql7aVxlLyJJ+StfbnisZdvmC3MZShCms7ZdWnbCcoIcE1FWW0JL4fi+K7F16i6NH8OLexLEY/CEuffOvL4sbX5scD9TgAVispjWuifgMlJJgOwdlR7uxp2/Urx3MqunvbVW3Ea09QK7O+N48a6uvMne2M7OeT8/B+vxsHwGYjgxN8ZgcoPge/LYgDve4DFSajCXg9tMVClhuwi13sxrL4dLD+mAkcrsIdDoprogmSqDBg3R3srh6lZNh/0+lpoOkagmXJ7g42MiWkZM2yt088bSetLKtNtttlvtpjj30U0qFdQKtBWIiipYAwM8zJfj6roEzxa0KChaiYkmHIz38e4aLTQj6CdMqu7U9Imq5sGGWUzY3f3tCMoj2li9uvL9ov0E+0QESd52uE/QAAAABJRU5ErkJggg==)](https://github.com/topics/javascript)
@@ -73,11 +73,11 @@ We use [GitHub Actions](.github/workflows) to run workflows daily to update the 
 [![](https://img.shields.io/static/v1?style=flat&label=&message=11ty&color=222&logo=)](https://github.com/topics/11ty)
 
 [Nunjucks](https://github.com/semanticdata?tab=stars)
-
+-->
 
 ![languages](svg/metrics-gh-languages.svg)
 
-<!-- ![starlists](svg/metrics-gh-starlists.svg) -->
+![starlists](svg/metrics-gh-starlists.svg)
 
 ## Spotify
 
@@ -155,8 +155,6 @@ We use [GitHub Actions](.github/workflows) to run workflows daily to update the 
 
 ![pagespeed results](svg/metrics-web-pagespeed-2.svg)
 
-<!--
 ## Full Metrics
 
 ![full metrics](svg/metrics-gh-full-metrics.svg)
--->
