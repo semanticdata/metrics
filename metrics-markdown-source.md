@@ -4,4 +4,4 @@
 
 ## 🎈 Embedding SVG metrics on-the-fly
 
-<%- await embed(`example-isocalendar`, {isocalendar:true, isocalendar_duration:"full-year", config_display:"large"}) %>
+<%- await embed(`example-starred-topics`, {topics:true, topics_details:"percentage, bytes-size", config_display:"large"}) %>
