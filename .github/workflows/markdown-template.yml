@@ -15,14 +15,14 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics-markdown-2.md
+          filename: metrics-markdown.md
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
           user: semanticdata
           template: markdown
           config_output: markdown
-          # markdown_cache: .cache
+          markdown_cache: .cache
           markdown: metrics-markdown-source.md
           base: ""
           plugin_rss: yes
