@@ -35,7 +35,7 @@ jobs:
           plugin_topics_mode: icons
           plugin_topics_limit: 20
 
-          # plugin_languages: yes
+          plugin_languages: yes
           plugin_languages_ignored: markdown
           plugin_languages_details: percentage
 
