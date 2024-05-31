@@ -1,4 +1,12 @@
-# 📒 Markdown Template Source Example
+# 📊 Metrics
+
+Data and other metrics using [lowlighter/metrics](https://github.com/lowlighter/metrics).
+
+We use [GitHub Actions](.github/workflows) to run workflows daily to update the images.
+
+## ✍ Blog posts (RSS)
+
+<!--[![blog posts](svg/metrics-rss-blog.svg)](https://miguelpimentel.do/posts/)-->
 
 **[🗼 Rss feed from MiguelPimentel.do](https://miguelpimentel.do/)**
 * [Being a Firefighter Does Not Save You From Burnout](https://miguelpimentel.do/on-burning-out/)
@@ -9,7 +17,19 @@
   * *Published on 18 Mar 2023*
 
 
----
+## 📝 Notes (RSS)
+
+[![notes](svg/metrics-rss-notes.svg)](https://miguelpimentel.do/notes/)
+
+## 📑 Tutorials (RSS)
+
+[![tutorials](svg/metrics-rss-tutorials.svg)](https://miguelpimentel.do/tutorials/)
+
+## GitHub
+
+[![github base](svg/metrics-gh-base.svg)](https://github.com/semanticdata)
+
+<!--![recent activity](svg/metrics-gh-recent-activity.svg)-->
 
 **[📰 Recent activity](https://github.com/semanticdata)**
 * ⏺️ Created new branch main in [semanticdata/metrics](https://github.com/semanticdata/metrics)
@@ -17,9 +37,16 @@
 * #️⃣ Opened [#2 Feature explanation request: Saving to GitHub Gists](https://github.com/kjk/edna/issues/2) in [kjk/edna](https://github.com/kjk/edna)
 * ⏺️ Created new branch main in [semanticdata/zola-doks](https://github.com/semanticdata/zola-doks)
 * ⏺️ Created new repository  [semanticdata/zola-doks](https://github.com/semanticdata/zola-doks)
+* ⏺️ Created new branch main in [semanticdata/bearblog-code-vault](https://github.com/semanticdata/bearblog-code-vault)
+* ⏺️ Created new branch base in [semanticdata/bearblog-code-vault](https://github.com/semanticdata/bearblog-code-vault)
+* ⏺️ Created new branch zola in [semanticdata/bearblog-code-vault](https://github.com/semanticdata/bearblog-code-vault)
 
 
----
+![mild facts](svg/metrics-gh-mild-facts.svg)
+
+![notable contributions](svg/metrics-gh-notable-contributions.svg)
+
+<!--[![starred topics](svg/metrics-gh-starred-topics.svg)](https://github.com/stars/semanticdata/topics)-->
 
 **[📌 ](https://github.com/semanticdata?tab=stars)**
 
@@ -43,13 +70,26 @@
 [![](https://img.shields.io/static/v1?style=flat&label=&message=Vercel&color=222&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAABYlAAAWJQFJUiTwAAAA30lEQVR4nO1TywmEMBCdmBRhF3biLVqDPYhHDzZiPVZgEV4ExVnesIq7YMwqu+DiwCPDGzJvPgkREX8ZdAvwdUaklBJcTyAIAjnjOBasudMC6lmxMYabphHAX8dOCWit5cyyjGeDv44dFpgrDMOQ27ZdBOCD8+xif/ZVVUnicRwFMHCeu3Anj6KIu66TpNM0CWDgEPMQcY+nrmtJ2Pc9D8MggA9DzGNM24tN03Sp/N1mLkmSvYVvV4/LZVlynudcFMULwCFmrd3r4qNfyQfgfkXGGCcOv6KfdEC3AP3DiB4iIbkJUEd/cAAAAABJRU5ErkJggg==)](https://github.com/topics/vercel)
 [![](https://img.shields.io/static/v1?style=flat&label=&message=Vite&color=222&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFNUlEQVR4nJVVDUxTZxS9KkVakNpCC6VPutUCrsoKFhSZWhXYcFMHOlj8nZEJMYi/EX9QN5gOHVGYinPiKjJkU1Hm5pwKakBmFAfNYE4gUXSZxh90Rt1Y1753lq+thGgQuclNX9739d5z7j33PqKXtz4u7/fUTSZyY97lrFfWp4u7GY1GUVQUJ04y6b30er0XEUmISMTOiMidiPq+KIkTmcnELrt1QSkiov5EJCYiD9ezO5FMauCi1Afzk8LMm2OD2DnHceyOG5EjRr+uyfq6AjEU7FBM5Oep08V7awzvDgyUhsoi9Xr/wuyxkRePxn1wvWZi7n1L/OGOlvgmvu0t66WjcSlEOm9jcLCvi9VTRiJXbOcLXXyGIqKgMjLonSVapafSj4gGxBplUob698qI1WgbA6Et2o57o4HbUQJujYCtNbQ9LVlkICKlzEMWGK3LGJw65VREvC5D4WLrRqTXs2zuYWtLDG+fs9+fXGW7k3D0Sc3Ur+/uS97WuCHwvV+SGk/HHMS9cPDNBptw5XU7f9lgw7WhuH42rmXOrIYNKxfeKM1Z/LBm8xLr7fwM24N5MWXhLKbeGZvctdpYhlQ6qeJ28cyLwKxKwZ5SCaQd4zFzH/gzZzba0RIIe5MBaBoGoTEUuKJBxZ4DwrpVQGG2HdsyBbt5BZA3904pEQ3UyhwxHQlEcvkIbyLyDZv2UfT076x35lYA88p4W1qJjf+wCLhweg3wmxq8ZShgCQEswUBDMBoOrcPlI4v4nwrKbfmpwK75HfeTw3PHEpGPKybrA+u4SqJRmPyJyC9xS+PmBRVAWjHPZ+wRsLAQ+PVUOmBRga8LAS4NBuq0wMXBQIMP/qvjUJbZzO+dD+RObfqciPz1EhZLJXGpydFpdw1pBspJrg7QmMJSdz++sqwYWLoD/PJ8oPXELKBeCuECB5zXAOcDIdS+AtTJYPlynbBrNrBn5qM2o1/CCDGJ1YEUKiNy1N+hIhcLkryqHMnUo0paVLV45RdA5hYIWZsE3DiegEeVkXhw8g2gVgmhmgNqlLBW6fBt+lW+dAaQE1ubxf7rRN8p185ZYA8iOem8OQpSE5FuWU772ZytQHa2jd/56VVsygTqzauBcx6wV3LAOXc0bc/kS5KBvQnt9XIK1MuJU8tIK3XV/rmpZiw8dF6jmYZV0xKKkz/52G7NzQJyl0PYshi4VW4Cqgk4KYP1GIcjKVfxTQKweuSR+az2Ws9RStfU9+tuXYgUpPcKEkcxFoPWLLhetiML2LoQ9t2LHuJa0WzcNE8BqgiXP1vOl08Git/88wQRaYPEBrUPhQzoDn1XFv05b72ciALGD185oSD933u7FgBFKR3CzveBuuw84HuRcGz6HzgUh470YQWJ7G6wl9GXSOPRHfquLNzYLhoiGaNipVo/tTGvNBUwz7Dx5kTgZuFEXMudZ/8hBjCPaS0hIo4xVpDC69nGdmcO2Updsn3NNyb8q+THzQeSgUOJT/j2nVFCdVILKqJxd5o6fRxDz5GDcf+eVvazpZIM83TI1n+96eTSw5OAyhkNQnPmKv70aKAo3JLHGDqZ+nm+LPrnZKsmHUdEQfvH/VV9ZiKPs+P/xo8R/7QapROGi0muZgPa5YPTK3PKlhyy9V+h3590apTd+vNIYPuQ2mXsnYth50rorXXKdhCFB7Cdf9hwt/x4+ON6ItL4UEgAY9iTLHuyvqx5rOFs287xWzs0XbV1OBEpnPumZ1m+DAvWPA+Glq0BOckdv66J7VVje0rizhEnZv7sN/dF9j+FGjr7zmBAjAAAAABJRU5ErkJggg==)](https://github.com/topics/vite)
 [![](https://img.shields.io/static/v1?style=flat&label=&message=Astro&color=222&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAADhElEQVR4nK2UzYscVRDAq+q9np6vnpnunZmdj+6enp7e2QRZBBdvko0H9SAkGliW7GbGjYp6EYkfFz2IkIP/gMSDXiQIooEgaEBBPKo3j+agCEFCjIrEQ5zZmZL3pjt0JGNmggXV9R6vqn6vqrobYL6gfmZafYGr5wSunhdY/wCVQu08Qu3dDDiHb/NdUnSQxManBrbZwOaBxCbPtHEgsMkE9c/vJfGt5FlodDLY/DODTc5gY2ykVGJDgW6YsNqNY2gZgFQPk1qns+Syia2JiS1leQbTwImBLTao/mw6ZlHRt8lh+8Mc+Zyl9jhLbTapfS2D7WsxbGxiW4E+Sle9iGjHErhOjtxf8uRxjtxRXoPcV7LkvpYjj01qjRTAxNbVIjSry0CEvr0IjhepwwXypwXyWIHy4G/mwH0whiqdZNVauE+mYxcCWCJ4pyS6XCR/pEB58n4E6GQB3FyevJ80MK4sj+65RQFxiW6uRMEPCmCJzqgkQmXfS5wK6L9fpIAL5I0KCkDeZYBmfpE26eFWZHCkIkIui0DppCxCLlF48haAOictXV1nUiRfVclF6W4tUoU+LIvwrC0irojuSIEqovuHA247cVoBr2WJ4HdLBHGFXbbQP3s3QFIa2SL61pEKEI40iMJLKR/tV6bgs7LocSkGFKnzXepju2Ob9KFtrG+syOjvFRmxI3s3V+Qa23Lt1ZnLlpwpgE3dlyuip1p4syy6yo5sI9xI5/qXzAKrsn+mJg9xVfbHNbmu7EHV6D2QCpzNyQjud0Q0dnQrw7GGUfdMOtcdpSYPfblqHFaJr1Rl/5O6jF6a8xsQjuy9aFPvQkWEVxzZZ5vWvvjP/jezoV+T6xfrxvquDxt2cshvAvEWSG2VboNQmpyXwbcrRrRnU3jRhp43dw4RROYmbBrJ/tdjYN3YEUfn3ernh3z7chSZyV7Fqhxz25OQt+KW8GmoTYf0G+/ix7xr7POO+SgfN49Onyie4MfLb00fc77nh+37lO9zAMbCPzyOHflpsHiIV/kFZH6eprwnmHcM5u3clHcs5hOl6/xIoZ6OWViYY8gQL/AQv+YBvM0DHPMAeXpKHPAww7xt6o9LzWWp5LdVMYA+70FztsZv+Blkfgr/mg7ojfSg71mYAZMb8j5e4iEy78IRvf9fAACoXlG9HtLrvI9fJcmX7vtdYaegwEM4xtuQWTToHzQ1Ewb9x9LPAAAAAElFTkSuQmCC)](https://github.com/topics/astro)
-[![](https://img.shields.io/static/v1?style=flat&label=&message=Netlify&color=222&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEnklEQVR4nF2T209cVRSHf2tO/xITExNNTIwmPqiJifHNNNE3H9REE58kTYwP3ngpDFCkXIdr6bRACwzX6QwzZ5+zzz7cay9YYGDKwHCnLfZCMRVoocwxax+KTScrM3ufvb7v/NZOBuiy0WOhT+CKwIBAUpAwIU24SRo0MSIwluQaEbxVSUiTG5K6+YpAv2C8ywYiLKI+C1cExVkEIcg24STJTdKwiZEkRnhBbpIf2iYJ3RZnEYM9FksQ4RX1WoiyiAYETEGW4FBOEm7SGDKNIQ7IW2mSzQ1I6LdGBYM9Nkuo0+ZgvRaHjOn3JAQJQZZJ0gw4JkQMIkZSZ7H4CImX5urluViCDkuHsqnXIt+lbwqmCDAT/3Zm6ruZaYhkwLf4Q8UEHcXReIcFtNvwQ+mb8l0UF0ZCIBrLm5nxPG/v+cEHo2OIJQIDLyz9gvr8a7ao06J2G7gkqcPibN1ar3MFYhZ6B35Nz3n607W20b228Vs6g/6EEePbRK/NV9PNIHXYuGQDbRKXbbTrOTkXRwv0mB8PXQ1nlzd2dpaf/Fucnj/MeU8Pn3/ojiOSMPqOLDxKu814mw1qlXTk4pBGxEZEnLqVznm5qa3tX6ZmjUg8NJf1PG99Z7dpYTk/lUFb3OjSQY4tLTYQlvzTxvF41DbzveTo42fP/KE6Vza+GPvr8sr6+fnlYCrzw7XpvpWNk8MT1GbiskXHlrAEzkuEJV2UgVaJCyJ/csG683f17KLneZu7e8GpzP7h4f7hYefi2tuxodejQz/fnJ3f+ufHG7fRalGrxEWJC5IlOCfRLI2wg3PipJzYOzjwPK/29tLMo+2W+dXOxfX27Fr+zfTI5sOa9NLkw8crT3ZqZrKhVPbd6BiarUCYcZagQaJJUrNEk/1GZLg2lW3JrFZMZ1/rGnwnOlJ8KzP56HFOjxmaXbq7s+ePfH937/3oOBqtgAZZQvUO/zRKapJotPJGU93Z9S/lzUDYerNnpGVupTm9HFnY6F2887V768HuU+3J/TQ+i0ZB5yQ1SsbrJajWoTqFOt4HGiWqk58NXK9PLY3efdQyt2qubm492598sH16Yv6tyHBoeqnl9uo3ziRqzSNFnYNaByEJVDmocRDiPdU7RoODkPVp9JqXyz3ZP/j9anpTjzP5YLshteJ53ufxG6hMnGhQPAorNF7lABUKVYpX1Q6FHKp1AnUKNVbeIP85/ry3VXgt43newNJmYnkz/2oGVcKoV1SrKKRQrRWViioUcFahXK8qfSMfU41CmZnnsCs0uWyv3O9fuPdRx/iJapuPfL6KEQbLFZUpoFThD4UyRWx0UeH6UqNKoVSccmaf53LVE4ufdF1HqThR7R7BFS6Vu4yUabxUASWKzrg44/KmTJefsVwFKlyUWN+L1FfxKZRYRqVL5XyEY54VLp1xqUQBQUVFLhW7VKIflbrg8vvcQJmLIpuKbDrrviC5uJN5BlHsIqiA0y4KFa+CCkUKxYqP/dLdRumgUTr4P6mL4SJdQYUCRQUu6LTrFwr4EUsL9XFQ9zGgXxB0j574ryxUKHBRcMQyfrx6qQb5W/e9UvQS+Ur9B4+SnjnCUKaDAAAAAElFTkSuQmCC)](https://github.com/topics/netlify)
 [![](https://img.shields.io/static/v1?style=flat&label=&message=11ty&color=222&logo=)](https://github.com/topics/11ty)
 
 [Nunjucks](https://github.com/semanticdata?tab=stars)
 
 
----
+![languages](svg/metrics-gh-languages.svg)
+
+<!-- ![starlists](svg/metrics-gh-starlists.svg) -->
+
+## Spotify
+
+![spotify recently played](svg/metrics-spotify-recently-played.svg)
+
+![spotify top 10 artists](svg/metrics-spotify-top-artists.svg)
+
+![spotify top 10 tracks](svg/metrics-spotify-top-tracks.svg)
+
+## Dev.to
+
+<!--[![dev.to entries](svg/metrics-rss-dev.to.svg)](https://dev.to/semanticdata)-->
 
 **[✒️ Recent posts from dev.to](https://dev.to/semanticdata)**
 <table>
@@ -104,3 +144,19 @@
   </tr>
 </table>
 
+
+## Websites
+
+[![website screenshot](svg/metrics-web-screenshot.svg)](https://miguelpimentel.do)
+
+![pagespeed results](svg/metrics-web-pagespeed.svg)
+
+[![website screenshot](svg/metrics-web-screenshot-2.svg)](https://forgetfulnotes.com)
+
+![pagespeed results](svg/metrics-web-pagespeed-2.svg)
+
+<!--
+## Full Metrics
+
+![full metrics](svg/metrics-gh-full-metrics.svg)
+-->
