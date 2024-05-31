@@ -32,6 +32,12 @@ We use [GitHub Actions](.github/workflows) to run workflows daily to update the 
 
 <!-- ![starlists](svg/metrics-gh-starlists.svg) -->
 
+## Spotify
+
+![spotify recently played](svg/metrics-spotify-recently-played.svg)
+
+![spotify top 10](svg/metrics-spotify-top.svg)
+
 ## Dev.to
 
 [![dev.to entries](svg/metrics-rss-dev.to.svg)](https://dev.to/semanticdata)
