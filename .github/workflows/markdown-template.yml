@@ -31,7 +31,7 @@ jobs:
           plugin_rss_source: https://database.bearblog.dev/feed/?q=posts
           plugin_rss_limit: 4
           
-          # plugin_topics: yes
+          plugin_topics: yes
           plugin_topics_mode: icons
           plugin_topics_limit: 20
 
