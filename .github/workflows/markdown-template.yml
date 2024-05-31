@@ -32,7 +32,7 @@ jobs:
           # plugin_rss_limit: 4
           
           plugin_activity: yes
-          # plugin_activity_limit: 5
+          plugin_activity_limit: 8
           # plugin_activity_load: 300
           plugin_activity_days: 30
           # plugin_activity_visibility: all
