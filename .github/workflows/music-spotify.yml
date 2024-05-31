@@ -23,7 +23,7 @@ jobs:
         plugin_music_playlist: https://open.spotify.com/embed/playlist/43yhgA1Y05nyRGL8QeRUFO
         plugin_music_provider: spotify
         plugin_music_mode: recent # top, recent
-        plugin_music_token: ${{ secrets.REFRESH_TOKEN }}
+        plugin_music_token: ${{ secrets.SPOTIFY_SECRETS }}
         plugin_music_limit: 2
         plugin_music_time_range: short # short, long
         plugin_music_top_type: tracks # artists, tracks
