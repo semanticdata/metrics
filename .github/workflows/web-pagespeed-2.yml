@@ -3,7 +3,7 @@ name: Update ForgetulNotes.com PageSpeed results
 
 on:
   # runs every day at 23:15
-  schedule: [{ cron: "15 23 * * *" }]
+  # schedule: [{ cron: "15 23 * * *" }]
   workflow_dispatch:
 
 permissions:

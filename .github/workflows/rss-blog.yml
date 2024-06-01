@@ -3,7 +3,7 @@ name: Update (RSS) Blog entries
 
 on:
   # runs every day at 01:00
-  schedule: [{ cron: "0 1 * * *" }]
+  # schedule: [{ cron: "0 1 * * *" }]
   workflow_dispatch:
 
 permissions:

@@ -3,7 +3,7 @@ name: Update Website PageSpeed results
 
 on:
   # runs every day at 23:00
-  schedule: [{ cron: "0 23 * * *" }]
+  # schedule: [{ cron: "0 23 * * *" }]
   workflow_dispatch:
 
 permissions:

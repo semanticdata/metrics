@@ -3,7 +3,7 @@ name: Update (RSS) Tutorials
 
 on:
   # runs every day at 23:30
-  schedule: [{ cron: "30 23 * * *" }]
+  # schedule: [{ cron: "30 23 * * *" }]
   workflow_dispatch:
 
 permissions:

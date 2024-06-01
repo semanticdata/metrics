@@ -3,7 +3,7 @@ name: Update GitHub Mildly Interesting Facts
 
 on:
   # runs every day at 03:30
-  schedule: [{ cron: "30 3 * * *" }]
+  # schedule: [{ cron: "30 3 * * *" }]
   workflow_dispatch:
 
 permissions:

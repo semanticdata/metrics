@@ -3,7 +3,7 @@ name: Update GitHub Star Lists
 
 on:
   # runs every day at 02:00
-  schedule: [{ cron: "0 2 * * *" }]
+  # schedule: [{ cron: "0 2 * * *" }]
   workflow_dispatch:
 
 permissions:
