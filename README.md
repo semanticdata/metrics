@@ -16,7 +16,7 @@ We use [GitHub Actions](.github/workflows) to run workflows daily to update the 
 
 [![tutorials](svg/metrics-rss-tutorials.svg)](https://miguelpimentel.do/tutorials/)
 
-## GitHub
+## 📂 GitHub
 
 [![github base](svg/metrics-gh-base.svg)](https://github.com/semanticdata)
 
@@ -32,7 +32,7 @@ We use [GitHub Actions](.github/workflows) to run workflows daily to update the 
 
 <!-- ![starlists](svg/metrics-gh-starlists.svg) -->
 
-## Spotify
+## 🎶 Spotify
 
 ![spotify recently played](svg/metrics-spotify-recently-played.svg)
 
@@ -40,11 +40,11 @@ We use [GitHub Actions](.github/workflows) to run workflows daily to update the 
 
 ![spotify top 10 tracks](svg/metrics-spotify-top-tracks.svg)
 
-## Dev.to
+## ✍ Dev.to
 
 [![dev.to entries](svg/metrics-rss-dev.to.svg)](https://dev.to/semanticdata)
 
-## Websites
+## 🕸 Websites
 
 [![website screenshot](svg/metrics-web-screenshot.svg)](https://miguelpimentel.do)
 
